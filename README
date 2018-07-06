@@ -1,0 +1,5 @@
+![image](https://user-images.githubusercontent.com/10692276/42366051-89c53e1e-8143-11e8-9996-9c2698f2281a.png)
+
+[Reference doc](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115&lang=en_US)
+
+The code inside `public` is assuming that this repo will be deployed to the domain `51.51blog.com`.
