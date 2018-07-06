@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/10692276/42366051-89c53e1e-8143-11e8-9996-9c2698f2281a.png)
+![image](https://user-images.githubusercontent.com/10692276/42366607-f39b177c-8144-11e8-9d38-278b3316828b.png)
 
 [Reference doc](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115&lang=en_US)
 
