@@ -2,9 +2,9 @@
 wx.config({
   debug: false,
   appId: 'wxd8c042e1754c001b',
-  timestamp: '1533107564899',
-  nonceStr: '8f5e0918-83f8-4017-8b76-b8e2731c0487',
-  signature: '6836afa047d57ebd22946f81cd2dfdad044e94de',
+  timestamp: '1533194621743',
+  nonceStr: 'ef6fe8a2-4410-4214-9d9b-74eb1e3f8a63',
+  signature: '919422ea9e08b135bd7b0fcbee0f0f142539b99f',
   jsApiList: [
     'onMenuShareAppMessage',
     'onMenuShareTimeline',
