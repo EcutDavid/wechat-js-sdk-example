@@ -11,8 +11,38 @@
 
 <body>
   <h1>bla bla</h1>
-  <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
-  <script src="/canva-test-4.js"></script>
+  <script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  <script>
+    wx.config({
+      debug: false,
+      appId: 'wx114e537b6f541f2f',
+      timestamp: '1534664067951',
+      nonceStr: 'cf283743-eac1-42a8-9495-5c8bdaed7d57',
+      signature: 'dae65d8d63cda2b53d0e6f2dc6da42cd8754b114',
+      jsApiList: [
+        'onMenuShareAppMessage',
+        'onMenuShareTimeline',
+      ]
+    })
+    wx.ready(() => {
+      wx.onMenuShareAppMessage({
+        title: 'Hello Canva',
+        imgUrl: 'https://about.canva.com/zh_cn/wp-content/themes/canvaabout/img/about/carousel/albumCover@2x.jpg',
+        link: location.href,
+        desc: 'Design anything. publish anywhere.',
+        success: function () {
+        }
+      })
+
+      wx.onMenuShareTimeline({
+        title: 'Hello Canva',
+        imgUrl: 'https://about.canva.com/zh_cn/wp-content/themes/canvaabout/img/about/carousel/albumCover@2x.jpg',
+        link: location.href,
+        success: function () {
+        }
+      })
+    })
+  </script>
 </body>
 
 </html>
