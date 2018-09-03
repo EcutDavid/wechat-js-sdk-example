@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Canva Test</title>
+  <meta name="description" content="Page description">
+</head>
+
+<body>
+  <h1>bla bla</h1>
+  <script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  <script>
+    // urlSignature":"5978dded595b7f7a2c3ce3ed73ae976e13bfd471","nonce":"ff738ffc-f779-4905-825c-96dbe4ea29a2","timestamp":1535959284001}
+    wx.config({
+      debug: false,
+      appId: 'wxd8c042e1754c001b',
+      timestamp: '1535959284001',
+      nonceStr: 'ff738ffc-f779-4905-825c-96dbe4ea29a2',
+      signature: '5978dded595b7f7a2c3ce3ed73ae976e13bfd471',
+      jsApiList: [
+        'onMenuShareAppMessage',
+        'onMenuShareTimeline',
+      ]
+    })
+    wx.ready(() => {
+      wx.onMenuShareAppMessage({
+        title: 'Hello Canva',
+        imgUrl: 'https://about.canva.com/zh_cn/wp-content/themes/canvaabout/img/about/carousel/albumCover@2x.jpg',
+        link: location.href,
+        desc: 'Design anything. publish anywhere.',
+        success: function () {
+        }
+      })
+
+      wx.onMenuShareTimeline({
+        title: 'Hello Canva',
+        imgUrl: 'https://about.canva.com/zh_cn/wp-content/themes/canvaabout/img/about/carousel/albumCover@2x.jpg',
+        link: location.href,
+        success: function () {
+        }
+      })
+    })
+  </script>
+</body>
+
+</html>
